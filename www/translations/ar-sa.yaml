@@ -141,8 +141,8 @@ miners:
   miners: المعدنين
 
 wallet:
-  dapp_html: <a href="https://pirl.io/nautilus-wallet/#download">https://pirl.io/nautilus-wallet/#download</a>
-  online_html: <a href="https://wallet.pirl.io/">https://wallet.pirl.io</a> official online pirl wallet
+  dapp_html: <a href="https://github.com/ethereum/mist/releases">https://github.com/ethereum/mist/releases</a>
+  online_html: <a href="https://www.myetherwallet.com/create-wallet</a> official online ethereum wallet
 
 errors:
   header: الموقع متوقف مؤقتاً
@@ -150,11 +150,11 @@ errors:
 
 
 links:
-  blockExplorerLink: 'https://poseidon.pirl.io/explorer/'
-  blockExplorerLink_tx: 'https://poseidon.pirl.io/explorer/transaction/'
-  blockExplorerLink_uncle: 'https://poseidon.pirl.io/explorer/block/'
-  blockExplorerLink_block: 'https://poseidon.pirl.io/explorer/block/'
-  blockExplorerLink_address: 'https://poseidon.pirl.io/explorer/address/'
+  blockExplorerLink: 'https://etherscan.io/'
+  blockExplorerLink_tx: 'https://etherscan.io/transaction/'
+  blockExplorerLink_uncle: 'https://etherscan.io/block/'
+  blockExplorerLink_block: 'https://etherscan.io/block/'
+  blockExplorerLink_address: 'https://etherscan.io/address/'
 
 footer:
   copyrights: '&copy; Brought to you from the team @ <a href="http://Pirl.io" target="_blank">Pirl.io</a>'
