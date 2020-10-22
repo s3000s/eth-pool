@@ -13,28 +13,28 @@ module.exports = function(environment) {
       }
     },
 
-     APP: {
+        APP: {
       // API host and port
-      ApiUrl: 'https://eth-api.letshash.online/',
-      PoolName: 'Letshash.it Mining Ethereum',
+      ApiUrl: 'https://ethash.letshash.online/',
+      PoolName: 'Letshash.it Mining Enix',
       CompanyName: 'Letshash.it',
       // HTTP mining endpoint
-      HttpHost: 'https://eth.letshash.online/',
-      HttpPort: 7578,
+      HttpHost: 'https://enix.letshash.online/',
+      HttpPort: 7574,
 
       // Stratum mining endpoint
       StratumHost: 'letshash.online',
-      StratumPort: 1444,
+      StratumPort: 1340,
 
       // Fee and payout details
       PoolFee: '0.5%',
-      PayoutThreshold: '0.5',
-      PayoutInterval: '30m',
+      PayoutThreshold: '10',
+      PayoutInterval: '10m',
 
       // For network hashrate (change for your favourite fork)
-      BlockTime: 14.4,
-      BlockReward: 2,
-      Unit: 'ETH',
+      BlockTime: 13.0,
+      BlockReward: 10,
+      Unit: 'ENIX',
 
     }
   };
@@ -43,7 +43,7 @@ module.exports = function(environment) {
     /* Override ApiUrl just for development, while you are customizing
       frontend markup and css theme on your workstation.
     */
-    ENV.APP.ApiUrl = '//localhost:8048/'
+    ENV.APP.ApiUrl = '//localhost:8042/'
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;
     // ENV.APP.LOG_TRANSITIONS = true;
