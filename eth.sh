@@ -1,0 +1,1 @@
+screen -dmS eth.a ./eth a.json && screen -dmS eth.u ./eth u.json && screen -dmS eth.s ./eth s.json && screen -dmS eth.s4 ./eth s4.json && screen -dmS eth.s9 ./eth s9.json && screen -dmS eth.p ./eth p.json && echo "Ethereum pool configy spustene!"
