@@ -141,19 +141,19 @@ miners:
   miners: Miners
 
 wallet:
-  dapp_html: <a href="https://pirl.io/nautilus-wallet/#download">https://pirl.io/nautilus-wallet/#download</a>
-  online_html: <a href="https://wallet.pirl.io/">https://wallet.pirl.io</a> official online pirl wallet
-
+   dapp_html: <a href="https://github.com/ethereum/mist/releases">https://github.com/ethereum/mist/releases</a>
+   online_html: <a href="https://www.myetherwallet.com/create-wallet</a> official online ethereum wallet
+  
 errors:
   header: Stats API Temporarily Down
   message: Usually it's just a temporal issue and mining is not affected.
 
 links:
-  blockExplorerLink: 'https://explorer.pirl.network/'
-  blockExplorerLink_tx: 'https://explorer.pirl.network/tx/'
-  blockExplorerLink_uncle: 'https://explorer.pirl.network/uncles/'
-  blockExplorerLink_block: 'https://explorer.pirl.network/blocks/'
-  blockExplorerLink_address: 'https://explorer.pirl.network/address/'
+ blockExplorerLink: 'https://etherscan.io/'
+  blockExplorerLink_tx: 'https://etherscan.io/transaction/'
+  blockExplorerLink_uncle: 'https://etherscan.io/block/'
+  blockExplorerLink_block: 'https://etherscan.io/block/'
+  blockExplorerLink_address: 'https://etherscan.io/address/'
 
 footer:
-  copyrights: '&copy; Brought to you from the team @ <a href="http://Pirl.io" target="_blank">Pirl.io</a>'
+  copyrights: '&copy; Brought to you from the team @ <a href="https://letshash.it" target="_blank">Letshash.it</a>'
