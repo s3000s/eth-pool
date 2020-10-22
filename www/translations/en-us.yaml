@@ -142,14 +142,14 @@ miners:
 
 wallet:
    dapp_html: <a href="https://github.com/ethereum/mist/releases">https://github.com/ethereum/mist/releases</a>
-   online_html: <a href="https://www.myetherwallet.com/create-wallet</a> official online ethereum wallet
+   online_html: <a href="https://www.myetherwallet.com/create-wallet/">https://www.myetherwallet.com/create-wallet"</a> official online ethereum wallet
   
 errors:
   header: Stats API Temporarily Down
   message: Usually it's just a temporal issue and mining is not affected.
 
 links:
- blockExplorerLink: 'https://etherscan.io/'
+  blockExplorerLink: 'https://etherscan.io/'
   blockExplorerLink_tx: 'https://etherscan.io/transaction/'
   blockExplorerLink_uncle: 'https://etherscan.io/block/'
   blockExplorerLink_block: 'https://etherscan.io/block/'
