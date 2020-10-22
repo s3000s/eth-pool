@@ -141,19 +141,19 @@ miners:
   miners: Miners
 
 wallet:
-   dapp_html: <a href="https://github.com/ethereum/mist/releases">https://github.com/ethereum/mist/releases</a>
-   online_html: <a href="https://www.myetherwallet.com/create-wallet/">https://www.myetherwallet.com/create-wallet"</a> official online ethereum wallet
+  dapp_html: <a href="https://github.com/Enix-Blockchain-Element/desktop-wallet/releases/download/v1.0.0/EnixWallet-V1.0.0-Windows.zip">https://github.com/Enix-Blockchain-Element/desktop-wallet/releases/download/v1.0.0/EnixWallet-V1.0.0-Windows.zip</a>
+  online_html: <a href="https://metamask.io/">https://metamask.io/"</a> Enix Metamask online wallet
   
 errors:
   header: Stats API Temporarily Down
   message: Usually it's just a temporal issue and mining is not affected.
 
 links:
-  blockExplorerLink: 'https://etherscan.io/'
-  blockExplorerLink_tx: 'https://etherscan.io/transaction/'
-  blockExplorerLink_uncle: 'https://etherscan.io/block/'
-  blockExplorerLink_block: 'https://etherscan.io/block/'
-  blockExplorerLink_address: 'https://etherscan.io/address/'
+  blockExplorerLink: 'https://explorer.enix.ai/'
+  blockExplorerLink_tx: 'https://explorer.enix.ai/transaction/'
+  blockExplorerLink_uncle: 'https://explorer.enix.ai/block/'
+  blockExplorerLink_block: 'https://explorer.enix.ai/block/'
+  blockExplorerLink_address: 'https://explorer.enix.ai/address/'
 
 footer:
   copyrights: '&copy; Brought to you from the team @ <a href="https://letshash.it" target="_blank">Letshash.it</a>'
