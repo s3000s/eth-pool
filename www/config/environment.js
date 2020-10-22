@@ -13,28 +13,28 @@ module.exports = function(environment) {
       }
     },
 
-    APP: {
+     APP: {
       // API host and port
-      ApiUrl: '//pool.pirl.network/',
-      PoolName: 'PIRL OFFICIAL POOL',
-      CompanyName: 'Pirl.io',
+      ApiUrl: 'https://eth-api.letshash.online/',
+      PoolName: 'Letshash.it Mining Ethereum',
+      CompanyName: 'Letshash.it',
       // HTTP mining endpoint
-      HttpHost: 'https://pool.pirl.network',
-      HttpPort: 8882,
+      HttpHost: 'https://eth.letshash.online/',
+      HttpPort: 7578,
 
       // Stratum mining endpoint
-      StratumHost: 'pool.pirl.network',
-      StratumPort: 8002,
+      StratumHost: 'letshash.online',
+      StratumPort: 1444,
 
       // Fee and payout details
-      PoolFee: '1.0%',
-      PayoutThreshold: '1.0',
-      PayoutInterval: '3h',
+      PoolFee: '0.5%',
+      PayoutThreshold: '0.5',
+      PayoutInterval: '30m',
 
       // For network hashrate (change for your favourite fork)
-      BlockTime: 12.0,
-      BlockReward: 4,
-      Unit: 'PIRL',
+      BlockTime: 14.4,
+      BlockReward: 2,
+      Unit: 'ETH',
 
     }
   };
@@ -43,7 +43,7 @@ module.exports = function(environment) {
     /* Override ApiUrl just for development, while you are customizing
       frontend markup and css theme on your workstation.
     */
-    ENV.APP.ApiUrl = 'http://localhost:8080/'
+    ENV.APP.ApiUrl = '//localhost:8048/'
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;
     // ENV.APP.LOG_TRANSITIONS = true;
@@ -54,6 +54,7 @@ module.exports = function(environment) {
   if (environment === 'test') {
     // Testem prefers this...
     ENV.locationType = 'none';
+
 
     // keep test console output quieter
     ENV.APP.LOG_ACTIVE_GENERATION = false;
