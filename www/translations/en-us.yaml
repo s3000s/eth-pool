@@ -150,9 +150,9 @@ errors:
 
 links:
   blockExplorerLink: 'https://explorer.enix.ai/'
-  blockExplorerLink_tx: 'https://explorer.enix.ai/transaction/'
-  blockExplorerLink_uncle: 'https://explorer.enix.ai/block/'
-  blockExplorerLink_block: 'https://explorer.enix.ai/block/'
+  blockExplorerLink_tx: 'https://explorer.enix.ai/tx/'
+  blockExplorerLink_uncle: 'https://explorer.enix.ai/blocks/'
+  blockExplorerLink_block: 'https://explorer.enix.ai/blocks/'
   blockExplorerLink_address: 'https://explorer.enix.ai/address/'
 
 footer:
