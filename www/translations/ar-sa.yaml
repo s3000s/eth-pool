@@ -142,7 +142,7 @@ miners:
 
 wallet:
   dapp_html: <a href="https://github.com/ethereum/mist/releases">https://github.com/ethereum/mist/releases</a>
-  online_html: <a href="https://www.myetherwallet.com/create-wallet</a> official online ethereum wallet
+  online_html: <a href="https://www.myetherwallet.com/create-wallet/">https://www.myetherwallet.com/create-wallet"</a> official online ethereum wallet
 
 errors:
   header: الموقع متوقف مؤقتاً
