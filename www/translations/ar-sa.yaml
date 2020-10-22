@@ -141,8 +141,8 @@ miners:
   miners: المعدنين
 
 wallet:
-  dapp_html: <a href="https://github.com/ethereum/mist/releases">https://github.com/ethereum/mist/releases</a>
-  online_html: <a href="https://www.myetherwallet.com/create-wallet/">https://www.myetherwallet.com/create-wallet"</a> official online ethereum wallet
+  dapp_html: <a href="https://wanli.uno/download/">https://wanli.uno/download/</a>
+  online_html: <a href="https://metamask.io/">https://metamask.io/"</a> Wanliuno Meta mask wallet
 
 errors:
   header: الموقع متوقف مؤقتاً
@@ -150,11 +150,11 @@ errors:
 
 
 links:
-  blockExplorerLink: 'https://etherscan.io/'
-  blockExplorerLink_tx: 'https://etherscan.io/transaction/'
-  blockExplorerLink_uncle: 'https://etherscan.io/block/'
-  blockExplorerLink_block: 'https://etherscan.io/block/'
-  blockExplorerLink_address: 'https://etherscan.io/address/'
+  blockExplorerLink: 'http://explorer.wanli.uno/'
+  blockExplorerLink_tx: 'http://explorer.wanli.uno/transactions/'
+  blockExplorerLink_uncle: 'http://explorer.wanli.uno//blocks/'
+  blockExplorerLink_block: 'http://explorer.wanli.uno/blocks/'
+  blockExplorerLink_address: 'http://explorer.wanli.uno/accounts/'
 
 footer:
   copyrights: '&copy; Brought to you from the team @ <a href="https://letshash.it" target="_blank">Letshash.it</a>'
