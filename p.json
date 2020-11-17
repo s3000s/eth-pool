@@ -1,6 +1,6 @@
 {
   "threads": 2,
-  "coin": "eth",
+  "coin": "etho",
   "name": "main",
   "pplns": 5000,
   "proxy": {
@@ -101,7 +101,7 @@
     "interval": "30m",
     "daemon": "http://127.0.0.1:8545",
     "timeout": "120s",
-    "address": "0xCa6fE99676edA69904F1B083f94B170C121fC2df",
+    "address": "0x4ac12870317b1A40211Cf1B71363Cbc9dB5Fe126",
     "autoGas": true,
     "gas": "21000",
     "gasPrice": "50000000000",

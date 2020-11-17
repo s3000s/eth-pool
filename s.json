@@ -1,6 +1,6 @@
 {
   "threads": 5,
-  "coin": "eth",
+  "coin": "etho",
   "name": "main",
   "pplns": 5000,
   "proxy": {

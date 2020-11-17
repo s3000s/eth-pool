@@ -34,7 +34,7 @@ const minDepth = 16
 var (
 	big2                 = big.NewInt(2)
 	big32                = big.NewInt(32)
-	BlockReward *big.Int = new(big.Int).Mul(big.NewInt(2), big.NewInt(1e+18))
+	BlockReward *big.Int = new(big.Int).Mul(big.NewInt(1.25), big.NewInt(1e+18))
 // this is the same as 10+18 zeros, easier to read
 )
 
