@@ -90,7 +90,7 @@ This will install the latest nodejs
 ### Install  Pool
 
     $ git clone https://git.pirl.io/community/official-pirl-pool.git
-    $ cd official-pirl-testnet-pool
+    $ cd official-pirl-pool
     $ make all
     $ ls build/bin/
 
@@ -336,7 +336,7 @@ Make some modifications in these settings.
 ### Install Frontend
 The frontend is a single-page Ember.js application that polls the pool API to render miner stats.
 
-    $ cd official-pirl-testnet-pool/www
+    $ cd official-pirl-pool/www
     $ sudo npm install -g ember-cli@2.9.1
     $ sudo npm install -g bower
     $ sudo chown -R $USER:$GROUP ~/.npm
@@ -345,7 +345,7 @@ The frontend is a single-page Ember.js application that polls the pool API to re
     $ bower install
     //if your going to run as root, you may need to run " bower install --allow-root "
     $ ./build.sh
-    $ note: the build script copies the contents of official-pirl-testnet-pool/www/dist/ to /var/www/
+    $ note: the build script copies the contents of official-pirl-pool/www/dist/ to /var/www/
 
 
 ### Install nginx configuration
@@ -432,7 +432,7 @@ Now you can access your pool's frontend via https! Share your pool link!
 ### Credits
 
 Made by sammy007. Licensed under GPLv3.
-Modified by Akira Takizawa & The Ellaism Project & phatblinkie and mohannad and the ethpool update project, & PIRL project
+Modified by Akira Takizawa & The Ellaism Project & community and mohannad and the ethpool update project, & PIRL project
 
 
 ### Donations

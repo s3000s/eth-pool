@@ -10,11 +10,11 @@ fi
 # Create fake Go workspace if it doesn't exist yet.
 workspace="$PWD/build/_workspace"
 root="$PWD"
-ethdir="$workspace/src/git.pirl.io/phatblinkie"
-if [ ! -L "$ethdir/official-pirl-testnet-pool" ]; then
+ethdir="$workspace/src/git.pirl.io/community"
+if [ ! -L "$ethdir/official-pirl-pool" ]; then
     mkdir -p "$ethdir"
     cd "$ethdir"
-    ln -s ../../../../../. official-pirl-testnet-pool
+    ln -s ../../../../../. official-pirl-pool
     cd "$root"
 fi
 
@@ -29,8 +29,8 @@ GOBIN="$PWD/build/bin"
 export GOPATH GOBIN
 
 # Run the command inside the workspace.
-cd "$ethdir/official-pirl-testnet-pool"
-PWD="$ethdir/official-pirl-testnet-pool"
+cd "$ethdir/official-pirl-pool"
+PWD="$ethdir/official-pirl-pool"
 
 # Launch the arguments with the configured environment.
 exec "$@"
