@@ -13,8 +13,8 @@ import (
 
 	"github.com/gorilla/mux"
 	"github.com/robfig/cron"
-	"git.pirl.io/community/official-pirl-pool/util"
-	"git.pirl.io/community/official-pirl-pool/storage"
+	"github.com/letshash/eth-pool/util"
+	"github.com/letshash/eth-pool/storage"
 )
 
 type ApiConfig struct {

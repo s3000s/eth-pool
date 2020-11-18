@@ -13,10 +13,10 @@ import (
 
 	"github.com/yvasiyarov/gorelic"
 
-	"git.pirl.io/community/official-pirl-pool/api"
-	"git.pirl.io/community/official-pirl-pool/payouts"
-	"git.pirl.io/community/official-pirl-pool/proxy"
-	"git.pirl.io/community/official-pirl-pool/storage"
+	"github.com/letshash/eth-pool/api"
+	"github.com/letshash/eth-pool/payouts"
+	"github.com/letshash/eth-pool/proxy"
+	"github.com/letshash/eth-pool/storage"
 )
 
 var cfg proxy.Config

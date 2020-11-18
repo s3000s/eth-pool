@@ -9,8 +9,8 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	"git.pirl.io/community/official-pirl-pool/rpc"
-	"git.pirl.io/community/official-pirl-pool/util"
+	"github.com/letshash/eth-pool/rpc"
+	"github.com/letshash/eth-pool/util"
 )
 
 const maxBacklog = 3

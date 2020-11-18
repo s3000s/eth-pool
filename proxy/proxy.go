@@ -13,10 +13,10 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"git.pirl.io/community/official-pirl-pool/policy"
-	"git.pirl.io/community/official-pirl-pool/rpc"
-	"git.pirl.io/community/official-pirl-pool/storage"
-	"git.pirl.io/community/official-pirl-pool/util"
+	"github.com/letshash/eth-pool/policy"
+	"github.com/letshash/eth-pool/rpc"
+	"github.com/letshash/eth-pool/storage"
+	"github.com/letshash/eth-pool/util"
 )
 
 type ProxyServer struct {

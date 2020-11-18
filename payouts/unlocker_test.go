@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"git.pirl.io/community/official-pirl-pool/rpc"
-	"git.pirl.io/community/official-pirl-pool/storage"
+	"github.com/letshash/eth-pool/rpc"
+	"github.com/letshash/eth-pool/storage"
 )
 
 func TestMain(m *testing.M) {

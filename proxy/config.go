@@ -1,10 +1,10 @@
 package proxy
 
 import (
-	"git.pirl.io/community/official-pirl-pool/api"
-	"git.pirl.io/community/official-pirl-pool/payouts"
-	"git.pirl.io/community/official-pirl-pool/policy"
-	"git.pirl.io/community/official-pirl-pool/storage"
+	"github.com/letshash/eth-pool/api"
+	"github.com/letshash/eth-pool/payouts"
+	"github.com/letshash/eth-pool/policy"
+	"github.com/letshash/eth-pool/storage"
 )
 
 type Config struct {

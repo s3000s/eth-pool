@@ -9,7 +9,7 @@ import (
 	"net"
 	"time"
 
-	"git.pirl.io/community/official-pirl-pool/util"
+	"github.com/letshash/eth-pool/util"
 )
 
 const (

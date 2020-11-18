@@ -89,7 +89,7 @@ This will install the latest nodejs
 
 ### Install  Pool
 
-    $ git clone https://git.pirl.io/community/official-pirl-pool.git
+    $ git clone https://github.com/letshash/eth-pool.git
     $ cd official-pirl-pool
     $ make all
     $ ls build/bin/

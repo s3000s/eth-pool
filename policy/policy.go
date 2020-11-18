@@ -3,8 +3,8 @@ package policy
 import (
 	"encoding/json"
 	"fmt"
-	"git.pirl.io/community/official-pirl-pool/storage"
-	"git.pirl.io/community/official-pirl-pool/util"
+	"github.com/letshash/eth-pool/storage"
+	"github.com/letshash/eth-pool/util"
 	"log"
 	"os"
 	"os/exec"

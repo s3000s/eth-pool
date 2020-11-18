@@ -11,9 +11,9 @@ import (
 
 //	"github.com/ethereum/go-ethereum/common/math"
 
-	"git.pirl.io/community/official-pirl-pool/rpc"
-	"git.pirl.io/community/official-pirl-pool/storage"
-	"git.pirl.io/community/official-pirl-pool/util"
+	"github.com/letshash/eth-pool/rpc"
+	"github.com/letshash/eth-pool/storage"
+	"github.com/letshash/eth-pool/util"
 )
 
 type UnlockerConfig struct {
