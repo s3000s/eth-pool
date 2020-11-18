@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"git.pirl.io/phatblinkie/official-pirl-testnet-pool/rpc"
-	"git.pirl.io/phatblinkie/official-pirl-testnet-pool/storage"
+	"git.pirl.io/community/official-pirl-pool/rpc"
+	"git.pirl.io/community/official-pirl-pool/storage"
 )
 
 func TestMain(m *testing.M) {

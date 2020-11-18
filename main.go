@@ -13,10 +13,10 @@ import (
 
 	"github.com/yvasiyarov/gorelic"
 
-	"git.pirl.io/phatblinkie/official-pirl-testnet-pool/api"
-	"git.pirl.io/phatblinkie/official-pirl-testnet-pool/payouts"
-	"git.pirl.io/phatblinkie/official-pirl-testnet-pool/proxy"
-	"git.pirl.io/phatblinkie/official-pirl-testnet-pool/storage"
+	"git.pirl.io/community/official-pirl-pool/api"
+	"git.pirl.io/community/official-pirl-pool/payouts"
+	"git.pirl.io/community/official-pirl-pool/proxy"
+	"git.pirl.io/community/official-pirl-pool/storage"
 )
 
 var cfg proxy.Config

@@ -14,7 +14,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	"git.pirl.io/phatblinkie/official-pirl-testnet-pool/util"
+	"git.pirl.io/community/official-pirl-pool/util"
 )
 
 type RPCClient struct {

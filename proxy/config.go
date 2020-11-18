@@ -1,10 +1,10 @@
 package proxy
 
 import (
-	"git.pirl.io/phatblinkie/official-pirl-testnet-pool/api"
-	"git.pirl.io/phatblinkie/official-pirl-testnet-pool/payouts"
-	"git.pirl.io/phatblinkie/official-pirl-testnet-pool/policy"
-	"git.pirl.io/phatblinkie/official-pirl-testnet-pool/storage"
+	"git.pirl.io/community/official-pirl-pool/api"
+	"git.pirl.io/community/official-pirl-pool/payouts"
+	"git.pirl.io/community/official-pirl-pool/policy"
+	"git.pirl.io/community/official-pirl-pool/storage"
 )
 
 type Config struct {

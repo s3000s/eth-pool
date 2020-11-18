@@ -6,8 +6,8 @@ import (
 	"regexp"
 	"strings"
 
-	"git.pirl.io/phatblinkie/official-pirl-testnet-pool/rpc"
-	"git.pirl.io/phatblinkie/official-pirl-testnet-pool/util"
+	"git.pirl.io/community/official-pirl-pool/rpc"
+	"git.pirl.io/community/official-pirl-pool/util"
 )
 
 // Allow only lowercase hexadecimal with 0x prefix

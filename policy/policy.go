@@ -3,8 +3,8 @@ package policy
 import (
 	"encoding/json"
 	"fmt"
-	"git.pirl.io/phatblinkie/official-pirl-testnet-pool/storage"
-	"git.pirl.io/phatblinkie/official-pirl-testnet-pool/util"
+	"git.pirl.io/community/official-pirl-pool/storage"
+	"git.pirl.io/community/official-pirl-pool/util"
 	"log"
 	"os"
 	"os/exec"

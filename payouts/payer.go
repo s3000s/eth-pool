@@ -12,9 +12,9 @@ import (
 
 	"github.com/ethereum/go-ethereum/common/hexutil"
 
-	"git.pirl.io/phatblinkie/official-pirl-testnet-pool/rpc"
-	"git.pirl.io/phatblinkie/official-pirl-testnet-pool/storage"
-	"git.pirl.io/phatblinkie/official-pirl-testnet-pool/util"
+	"git.pirl.io/community/official-pirl-pool/rpc"
+	"git.pirl.io/community/official-pirl-pool/storage"
+	"git.pirl.io/community/official-pirl-pool/util"
 )
 
 const txCheckInterval = 5 * time.Second
