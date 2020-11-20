@@ -5,13 +5,13 @@
   "pplns": 5000,
   "proxy": {
     "enabled": true,
-    "listen": "0.0.0.0:7578",
+    "listen": "0.0.0.0:7478",
     "limitHeadersSize": 1024,
     "limitBodySize": 256,
     "behindReverseProxy": false,
     "stratum": {
       "enabled": true,
-      "listen": "0.0.0.0:1444",
+      "listen": "0.0.0.0:1144",
       "timeout": "120s",
       "maxConn": 8192
     },
@@ -19,7 +19,7 @@
     "blockRefreshInterval": "120ms",
     "stateUpdateInterval": "3s",
     "difficulty": 2000000000,
-    "stratumHostname": "letshash.online",
+    "stratumHostname": "pool.letshash.it",
     "healthCheck": true,
     "maxFails": 100,
     "hashrateExpiration": "3h",
@@ -68,12 +68,12 @@
   "upstream": [
     {
       "name": "main",
-      "url": "http://127.0.0.1:8545",
+      "url": "http://127.0.0.1:8597",
       "timeout": "10s"
     },
     {
       "name": "backup",
-      "url": "http://127.0.0.2:8545",
+      "url": "http://127.0.0.2:8597",
       "timeout": "10s"
     }
   ],
